@@ -1,0 +1,233 @@
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input {
+    font-size: 14px;
+    margin: 3px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px !important;
+    color: black !important;
+    margin-bottom: 5px;
+}
+
+a {
+    border-collapse: collapse !important;
+}
+
+table {
+    margin: 0px;
+}
+
+td {
+    font-size: 16px;
+    color: white;
+    margin: 1px;
+    padding: 1px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+b {
+    color: black;
+    font-weight: bold;
+}
+
+/* Formatação para a página login.php */
+.wallpaper {
+    position: relative;
+    background-image: url(../img/desktop.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+}
+
+.login {
+    background-image: url(../img/paper.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 750px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.logo{
+    background-image: url(../img/notavel.png);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    align-items: auto;
+    justify-content: center;
+    height: 300px;
+    width: 450px;
+}
+
+.log {
+    position: relative;
+    width: 300px;
+}
+
+/* Formatação para outras index.php */
+.tema {
+    position: relative;
+    background-image: url(../img/desktop.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    height: 35px;
+    width: 100vw;
+}
+
+.id {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 45px;
+    min-width: 250px;
+}
+
+.principal{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 687px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.arquivo {
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: top;
+    float: left;
+    align-items: top;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 680px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#indice {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 2px;
+}
+
+.editor {
+    left: 50%;
+    transform: translateX(-32.5%);
+    background-image: url(../img/paper.png);
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 850px;
+    display: flex;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#titulo{
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border:none;
+    margin: 0;
+    padding: 0;
+}
+
+#anotacao{
+    font-size: 14px;
+    margin-top: 10px;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    border:none;
+}
+
+.perfil{
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 680px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.rodape {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30px;
+    width: 100vw;
+    color: white;
+    bottom: 0;
+}
+
